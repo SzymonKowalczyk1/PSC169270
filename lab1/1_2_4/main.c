@@ -5,7 +5,7 @@ int main()
 {
     int liczba;
     scanf("%d", &liczba);
-    printf("Liczba:%d", liczba );
+    printf("Liczba: %d", liczba);
 
 
 
