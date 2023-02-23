@@ -5,6 +5,6 @@ int main()
 {
     float liczba;
     scanf("%f", &liczba);
-    printf("Liczba: %f", liczba);
+    printf("Liczba:  %f", liczba);
     return 0;
 }
