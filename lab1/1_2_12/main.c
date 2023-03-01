@@ -3,6 +3,9 @@
 
 int main()
 {
-    printf("Boop! Tyn\n");
+    double liczba;
+    scanf ("%lf",&liczba);
+    printf("wpisana wartosc %lf \n",liczba);
+    printf("notacja wykladnicza %.1e \n", liczba);
     return 0;
 }
