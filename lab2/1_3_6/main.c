@@ -21,6 +21,7 @@ int main()
     wx = c1 * b2 - b1 * c2;
     wy = a1 * c2 - c1 * a2;
     w = a1 * b2 - b1 * a2;
+
 if (w != 0) {
     x = wx / w;
     printf("X wynosi: %f\n", x);
@@ -33,14 +34,5 @@ else if (wx == 0 && wy == 0) {
 else {
     printf ("Uklad jest sprzeczny");
 }
-
-
-
-
-
-
-
-
-
     return 0;
 }
