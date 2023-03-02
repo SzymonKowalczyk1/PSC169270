@@ -9,12 +9,20 @@ int main()
     scanf("%i", &a);
     printf("Podaj b: ");
     scanf("%i", &b);
-
-    if (abs(a) > abs(b)){
-        printf("Liczba a jest wieksza");
+    int t1=a;
+    if (a<0){
+        t1= -a;
     }
-    else if(abs(a)<abs(b)) {
-        printf("Liczba b jest wieksza");
+    int t2 = b;
+    if (b<0){
+        t2 = -b;
+    }
+
+    if (t1 > t2){
+        printf("%d", a);
+    }
+    else if(t1<t2) {
+        printf("%d", b);
     }
     else {
         printf("Liczba a i b sa rowne");
