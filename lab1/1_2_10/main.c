@@ -5,7 +5,7 @@ int main()
 {
     double liczba;
     scanf("%lf", &liczba);
-    double wynik = abs(liczba);
+    double wynik = fabs(liczba);
     printf("%lf",wynik);
     return 0;
 }
