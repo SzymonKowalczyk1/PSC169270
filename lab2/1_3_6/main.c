@@ -4,23 +4,23 @@
 int main()
 {
     printf("Podaj wspolczynniki: \n");
-    float a1,a2,b1,b2,c1,c2,wx,wy,w,x,y;
-    printf("a1: ");
-    scanf("%f",&a1);
+    float x1,x2,y1,y2,b1,b2,wx,wy,w,x,y;
+    printf("x1: ");
+    scanf("%f",&x1);
+    printf("y1: ");
+    scanf("%f",&y1);
     printf("b1: ");
     scanf("%f",&b1);
-    printf("c1: ");
-    scanf("%f",&c1);
-    printf("a2: ");
-    scanf("%f",&a2);
+    printf("x2: ");
+    scanf("%f",&x2);
+    printf("y2: ");
+    scanf("%f",&y2);
     printf("b2: ");
     scanf("%f",&b2);
-    printf("c2: ");
-    scanf("%f",&c2);
 
-    wx = c1 * b2 - b1 * c2;
-    wy = a1 * c2 - c1 * a2;
-    w = a1 * b2 - b1 * a2;
+    wx = b1 * y2 - y1 * b2;
+    wy = x1 * b2 - b1 * x2;
+    w = x1 * y2 - y1 * x2;
 
 if (w != 0) {
     x = wx / w;
