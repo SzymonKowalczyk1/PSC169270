@@ -4,19 +4,30 @@
 int main()
 {
     int x;
-    double a,b,h;
-    printf("Jakiej figury chcesz policzyc pole?\n");
+    double a,b,h,pole;
+    printf("Wybierz figure, ktorej chcesz policzyc pole?\n");
     printf("1 - kwadrat \n");
     printf("2 - prostokat \n");
     printf("3 - trojkat \n");
-    scanf("%i",x);
+    scanf("%d",&x);
     switch(x) {
     case 1:
         printf("Podaj bok kwadratu: ");
-        scanf("%f",a);
-        p = a*a;
-
-
-    }
+        scanf("%lf",&a);
+        pole = a*a;
+        break;
+    case 2:
+        printf("Podaj boki prostokata: ");
+        scanf("%lf",&a);
+        scanf("%lf",&b);
+        pole = a * b;
+        break;
+    case 3:
+        printf("Podaj bok i wysokosc trojkata: ");
+        scanf("%lf ",&a);
+        scanf("%lf",&h);
+        pole = 0.5 * a * h;
+}
+    printf("%f",pole);
     return 0;
 }
