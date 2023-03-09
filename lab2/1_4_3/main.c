@@ -12,9 +12,8 @@ int main()
 	temp = n;
 	while (temp > k){
         printf ("%i \n", temp);
+        temp = temp - m;
 	}
-	else {
-        temp = temp + n;
-	}
+
 	return 0;
 }
