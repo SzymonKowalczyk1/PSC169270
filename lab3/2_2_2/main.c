@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int silnia (int n) {
+int silnia (unsigned int n) {
 
 int s = 1;
 for (int i = 2; i <= n; i++){
