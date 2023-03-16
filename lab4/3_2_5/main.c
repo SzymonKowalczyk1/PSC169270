@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int fun (int*x, int*y)
+int fun (int const*x, int const*y)
 {
     return *x + *y;
 
