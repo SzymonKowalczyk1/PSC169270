@@ -8,7 +8,6 @@ int fun (int*x, int*y)
 int main()
 {
     int x = 9, y = 2;
-
     printf("%i\n",fun (&x,&y));
     return 0;
 }
