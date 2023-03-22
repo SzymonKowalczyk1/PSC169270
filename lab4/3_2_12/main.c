@@ -2,10 +2,12 @@
 #include <stdlib.h>
 double *fun (int n)
 {
-    malloc(n *sizeof(double));
+    double wsk* = malloc(n *sizeof(double));
+    return wsk;
 }
 int main()
 {
-    printf("Hello world!\n");
+    int * wsk2 = foo(6);
+    printf("%p\n",wsk2);
     return 0;
 }
