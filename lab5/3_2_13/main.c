@@ -3,7 +3,7 @@
 
 double fun(double(*w)(int),int n)
 {
-return fun(a);
+return w(n);
 }
 double pom(int arg)
 {
@@ -12,6 +12,6 @@ double pom(int arg)
 
 int main()
 {
-    printf("%lf\n",foo(pom, 5));
+    printf("%lf\n",fun(pom, 5));
     return 0;
 }
