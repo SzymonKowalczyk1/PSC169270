@@ -11,9 +11,13 @@ void kopiujn (char nap1[],char nap2[], int n)
 }
 int main()
 {
-    char nap1[] = "Tescikpykpyk";
-    char nap2[] = "Esst";
-    kopiujn(nap1,nap2,12);
+    char nap1[] = "Testabcabccdecd";
+    char nap2[] = "Tessssssssst";
+    kopiujn(nap1,nap2,20);
     printf("%s\n",nap2);
+    char nap1a[] = "Alicja";
+    char nap2b[] = "Franek";
+    kopiujn(nap1a,nap2b,4);
+    printf("%s\n",nap2b);
     return 0;
 }
