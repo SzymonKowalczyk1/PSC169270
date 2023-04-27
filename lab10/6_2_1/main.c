@@ -10,6 +10,7 @@ int ** alokuj(int n, int m)
     }
     return temp;
 }
+
 int main()
 {
     int **tab = alokuj(2,3);
