@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1684404206 source:c:\users\szymo\documents\github\psc169270\lab12\jednozadanie\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
