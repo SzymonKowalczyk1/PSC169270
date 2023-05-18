@@ -26,7 +26,7 @@ void pokazOsoba (struct Osoba arg)
     printf("Imie: %s, wiek: %d\n", arg.imie, arg.wiek);
 }
 
-void urodziny(struct Osoba * wsk)
+void urodziny(struct Osoba *wsk)
 {
     wsk->wiek++;
 }
